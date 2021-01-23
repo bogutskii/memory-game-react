@@ -1,14 +1,15 @@
 import React, {useState, useEffect} from 'react'
 import './App.css';
-
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 function App() {
 
 
-    return (
-        <div className="App">
-            <h1>Hello </h1>
-        </div>
-    );
+    return <>
+
+        <button type="button" className="btn btn-primary">Primary</button>
+        <button type="button" className="btn btn-secondary">Secondary</button>
+        <button type="button" className="btn btn-success">Success</button>
+    </>
 }
 
 export default App;
