@@ -1,6 +1,14 @@
 import React, {useState, useEffect} from 'react'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from 'react-router-dom'
+
 import Card from './components/Card/Card'
 
 function App() {
@@ -40,6 +48,8 @@ function App() {
         </div>
 
         <Card/>
+
+
     </div>
 }
 
