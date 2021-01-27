@@ -3,37 +3,39 @@ import ReactCardFlip from "react-card-flip";
 import './card.css'
 
 const Card = (props) => {
-    const [showAnswer, setShowAnswer] = useState(false)
+   // const [showAnswer, setShowAnswer] = useState(false)
 
 
     const flippedCard = () => {
-        setShowAnswer(!showAnswer)
+        //  setShowAnswer(!showAnswer)
     };
-
+    let showAnswer = false
 
     return (
-        <div>
 
-            <ReactCardFlip isFlipped={showAnswer} flipDirection="vertical">
-
-                <div className="cardFrameQ" onClick={flippedCard}>
-                    {'card.question'}
-
-                    <button className="btn-green" onClick={flippedCard}>
-
-                    </button>
-
-
-                </div>
-
-                <div className="cardFrameA" onMouseLeave={flippedCard}>
-                    {"card.answer"}
-
-                </div>
-
-            </ReactCardFlip>
-
-        </div>
+        <h1>Card</h1>
+        //     <div>
+        //
+        //         <ReactCardFlip isFlipped={showAnswer} flipDirection="vertical">
+        //
+        //             <div className="cardFrameQ" onClick={flippedCard}>
+        //                 {'card.question'}
+        //
+        //                 <button className="btn-green" onClick={flippedCard}>
+        //
+        //                 </button>
+        //
+        //
+        //             </div>
+        //
+        //             <div className="cardFrameA" onMouseLeave={flippedCard}>
+        //                 {"card.answer"}
+        //
+        //             </div>
+        //
+        //         </ReactCardFlip>
+        //
+        //     </div>
     );
 }
 export default Card;
