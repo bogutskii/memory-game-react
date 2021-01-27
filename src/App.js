@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Field from "./components/Field";
 import NavBar from "./components/NavBar/NavBar";
 import Card from './components/Card/Card'
+import Rules from "./components/Rules";
 import {
     BrowserRouter as Router,
     Switch,
@@ -21,6 +22,7 @@ function App() {
                 <NavBar/>
                 <Route path='/Card' render={Card}/>
                 <Route path='/Field' render={Field}/>
+                <Route path='/Rules' render={Rules}/>
 
 
             </div>

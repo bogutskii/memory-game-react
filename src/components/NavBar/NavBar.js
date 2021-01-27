@@ -9,6 +9,8 @@ export default function NavBar(props) {
             <br/>
             <NavLink to='/Field'>Field</NavLink>
             <br/>
+            <NavLink to='/Rules'>Rules</NavLink>
+            <br/>
 
         </>
     );
