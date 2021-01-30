@@ -5,11 +5,17 @@ const Rules = () => {
 
     return <div>
 
-        <p>
+        <p className="lh-base">
 
-            Carefully punch the 72 cards out of the cardboard sheet. Mix and spread the cards picture-side-down on a
-            flat surface. Note: Keep the plastic tray for storing the cards. This will prevent them from becoming nicked
-            or marked.
+            <h3>Carefully punch the 72 cards out of the cardboard sheet. </h3>
+            Mix and spread the cards picture-side-down on a
+            flat surface.
+            <div className="p-3 mb-2 bg-light text-dark">
+                Note: Keep the plastic tray for storing the cards. This will prevent them from becoming nicked
+                or marked.
+
+            </div>
+
 
             Form 9 rows of cards across and 8 rows down, using all 72 cards (36 pairs). Or, divide the cards in half (18
             pairs), and form 6 rows across and 6 rows down, for beginners.

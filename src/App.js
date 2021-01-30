@@ -20,6 +20,7 @@ function App() {
 
 
                 <NavBar/>
+
                 <Route path='/Card' render={Card}/>
                 <Route path='/Field' render={Field}/>
                 <Route path='/Rules' render={Rules}/>

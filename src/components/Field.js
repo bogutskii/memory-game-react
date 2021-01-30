@@ -18,8 +18,6 @@ const Field = () => {
             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
 
-        <Card/>
-
     </>
 }
 export default Field;
