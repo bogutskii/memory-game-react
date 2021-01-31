@@ -5,6 +5,7 @@ import Field from "./components/Field";
 import NavBar from "./components/NavBar/NavBar";
 import Card from './components/Card/Card'
 import Rules from "./components/Rules";
+import Footer from "./components/Footer/Footer";
 import {
     BrowserRouter as Router,
     Switch,
@@ -25,7 +26,7 @@ function App() {
                 <Route path='/Field' render={Field}/>
                 <Route path='/Rules' render={Rules}/>
 
-
+                <Footer/>
             </div>
         </Router>
 
