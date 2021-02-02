@@ -1,17 +1,13 @@
-import React, {useState} from "react";
+import React from "react";
 import ReactCardFlip from "react-card-flip";
-import './card.css'
 import CardValue from './CardValue'
+
 const Card = (props) => {
-
-
-
 
     return (
         <div>
             <h1>Card</h1>
-
-            <CardValue/>
+            {/*<CardValue setCards={props.setCards} cards={props.cards}/>*/}
         </div>
     );
 }

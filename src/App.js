@@ -15,6 +15,8 @@ import {
 
 
 function App() {
+    const [cards, setCards] = useState(16)
+
     return (
         <Router>
             <div className='container'>
@@ -22,7 +24,11 @@ function App() {
 
                 <NavBar/>
 
-                <Route path='/Card' render={Card}/>
+                <Route path='/Card' render={<Card cards={cards}
+                                                  setCards={(cards) => setCards(cards)}/>}
+                />
+
+                {/*<Route path='/Card' render={Card}/>*/}
                 <Route path='/Field' render={Field}/>
                 <Route path='/Rules' render={Rules}/>
 
